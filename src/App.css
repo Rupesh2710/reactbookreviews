@@ -1,7 +1,15 @@
 .App {
   text-align: center;
+  
 }
 
+html, .App {
+    
+    
+  background-color: #e08ce383;
+  
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +43,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+.navbar-bg {
+  background: linear-gradient(to right, #ff8b3d, #0abe22);
+  color: rgb(255, 0, 0);
+  transition: background-color 0.3s, color 0.3s;
+  padding: 10px 0;
+}
+.navbar-brand-text {
+  font-size: 24px;
+  color: #4caf50;
+  font-weight: bold;
+}
+.brand-link {
+  text-decoration: none;
+  color: white;
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: rgb(255, 0, 0);
+}
+.nav-link:hover {
+  color: #ffca28;
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
 }
