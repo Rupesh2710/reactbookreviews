@@ -5,7 +5,7 @@ import {
   Route,
   Link,
   Routes,
-  Outlet,
+Outlet,
 } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 import { FaHome,  FaBook,  FaBookReader } from "react-icons/fa";
@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
    
-    <Router>
+    <Router basename="/reactbookreviews">
             <Navbar className="navbar-bg" expand="lg">
                 <Navbar.Brand>
                     <h1 className="navbar-brand-text">
@@ -54,14 +54,15 @@ function App() {
             </Navbar>
             <div className="container mt-4">
                 <Routes>
-                    <Route path="/" element={<Outlet />}>
-                        <Route index element={<Home />} />
+                    <Route index element={<Home />}/>
+                        <Route path="/" element={<Outlet />}>
+                        
                         <Route path="/thrillers" element={<Thrillers />} />
                         <Route path="/classics" element={<Classics />} />
                         <Route path="/nonfiction" element={<Nonfiction />} />
                         <Route path="/romance" element={<Romance />} />
                         <Route path="/sciencefiction" element={<Sciencefiction />} />
-                    </Route>
+                     </Route>
                 </Routes>
             </div>
         </Router>
