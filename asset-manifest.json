@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reactbookreviews/static/css/main.9be7d008.css",
-    "main.js": "/reactbookreviews/static/js/main.af275640.js",
+    "main.js": "/reactbookreviews/static/js/main.cbd3849f.js",
     "static/js/453.867e0252.chunk.js": "/reactbookreviews/static/js/453.867e0252.chunk.js",
     "index.html": "/reactbookreviews/index.html",
     "main.9be7d008.css.map": "/reactbookreviews/static/css/main.9be7d008.css.map",
-    "main.af275640.js.map": "/reactbookreviews/static/js/main.af275640.js.map",
+    "main.cbd3849f.js.map": "/reactbookreviews/static/js/main.cbd3849f.js.map",
     "453.867e0252.chunk.js.map": "/reactbookreviews/static/js/453.867e0252.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9be7d008.css",
-    "static/js/main.af275640.js"
+    "static/js/main.cbd3849f.js"
   ]
 }
